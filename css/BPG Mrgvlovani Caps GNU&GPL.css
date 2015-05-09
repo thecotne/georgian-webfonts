@@ -1,0 +1,13 @@
+/*
+ * georgian-webfonts
+ * https://github.com/thecotne/georgian-webfonts
+ *
+ * Copyright (c) 2015 cotne nazarashvili
+ * Licensed under the MIT license.
+ */
+@font-face {
+	font-family: "BPG Mrgvlovani Caps GNU&GPL";
+	src: url("../fonts/BPG fonts/BPG_Mrgvlovani_Caps_GNU&GPL.ttf");
+	font-weight: "normal";
+	font-style: "normal";
+}

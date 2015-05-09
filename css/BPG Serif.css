@@ -1,0 +1,13 @@
+/*
+ * georgian-webfonts
+ * https://github.com/thecotne/georgian-webfonts
+ *
+ * Copyright (c) 2015 cotne nazarashvili
+ * Licensed under the MIT license.
+ */
+@font-face {
+	font-family: "BPG Serif";
+	src: url("../fonts/BPG fonts/bpg_serif.ttf");
+	font-weight: "normal";
+	font-style: "normal";
+}

@@ -1,0 +1,13 @@
+/*
+ * georgian-webfonts
+ * https://github.com/thecotne/georgian-webfonts
+ *
+ * Copyright (c) 2015 cotne nazarashvili
+ * Licensed under the MIT license.
+ */
+@font-face {
+	font-family: "BPG Nino Elite Cond";
+	src: url("../fonts/BPG fonts/bpg_nino_elite_cond.otf");
+	font-weight: "normal";
+	font-style: "normal";
+}

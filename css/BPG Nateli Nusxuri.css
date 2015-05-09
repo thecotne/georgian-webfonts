@@ -1,0 +1,13 @@
+/*
+ * georgian-webfonts
+ * https://github.com/thecotne/georgian-webfonts
+ *
+ * Copyright (c) 2015 cotne nazarashvili
+ * Licensed under the MIT license.
+ */
+@font-face {
+	font-family: "BPG Nateli Nusxuri";
+	src: url("../fonts/BPG fonts/bpg_nateli_nusxuri.ttf");
+	font-weight: "normal";
+	font-style: "normal";
+}

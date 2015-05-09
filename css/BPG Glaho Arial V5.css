@@ -1,0 +1,13 @@
+/*
+ * georgian-webfonts
+ * https://github.com/thecotne/georgian-webfonts
+ *
+ * Copyright (c) 2015 cotne nazarashvili
+ * Licensed under the MIT license.
+ */
+@font-face {
+	font-family: "BPG Glaho Arial V5";
+	src: url("../fonts/BPG fonts/BPG_Glaho_Arial_V5_0.ttf");
+	font-weight: "normal";
+	font-style: "normal";
+}

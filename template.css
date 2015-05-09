@@ -1,0 +1,6 @@
+@font-face {
+	font-family: "<%= fontFamily %>";
+	src: url("../<%= path %>");
+	font-weight: "<%= fontWeight %>";
+	font-style: "<%= fontStyle %>";
+}
