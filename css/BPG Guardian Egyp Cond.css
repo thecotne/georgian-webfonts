@@ -1,0 +1,13 @@
+/*
+ * georgian-webfonts
+ * https://github.com/thecotne/georgian-webfonts
+ *
+ * Copyright (c) 2015 cotne nazarashvili
+ * Licensed under the MIT license.
+ */
+@font-face {
+	font-family: "BPG Guardian Egyp Cond";
+	src: url("../fonts/BPG Guardian Egyp Cond.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
