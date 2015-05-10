@@ -1,18 +1,21 @@
 {
   "name": "georgian-webfonts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/thecotne/georgian-webfonts",
   "authors": [
     "cotne nazarashvili <cotne.nazarashvili@gmail.com>"
   ],
   "description": "georgian webfonts",
-  "main": "css/all.min.css",
+  "main": "bower.json",
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "*/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "newfonts",
+    "*.js",
+    "*.json",
+    "*.md",
+    "template.css"
   ]
 }
