@@ -8,6 +8,6 @@
 @font-face {
 	font-family: "BPG Excelsior DejaVu 2010";
 	src: url("../fonts/BPG fonts/bpg_excelsior_dejavu.ttf");
-	font-weight: "normal";
-	font-style: "normal";
+	font-weight: normal;
+	font-style: normal;
 }

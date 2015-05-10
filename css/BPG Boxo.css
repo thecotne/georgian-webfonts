@@ -8,6 +8,6 @@
 @font-face {
 	font-family: "BPG Boxo";
 	src: url("../fonts/BPG fonts/bpg_boxo.ttf");
-	font-weight: "normal";
-	font-style: "normal";
+	font-weight: normal;
+	font-style: normal;
 }

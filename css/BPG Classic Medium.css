@@ -8,6 +8,6 @@
 @font-face {
 	font-family: "BPG Classic Medium";
 	src: url("../fonts/BPG fonts/bpg_classic_medium.ttf");
-	font-weight: "normal";
-	font-style: "normal";
+	font-weight: normal;
+	font-style: normal;
 }

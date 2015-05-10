@@ -8,6 +8,6 @@
 @font-face {
 	font-family: "BPG Nino Medium Condenced";
 	src: url("../fonts/BPG fonts/bpg_nino_medium_condenced.otf");
-	font-weight: "normal";
-	font-style: "normal";
+	font-weight: normal;
+	font-style: normal;
 }
