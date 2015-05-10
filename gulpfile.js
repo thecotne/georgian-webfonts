@@ -30,17 +30,4 @@ gulp.task('fontface', function() {
 		}))
 });
 
-gulp.task('all', function() {
-	return gulp
-		.src('css/**.css')
-		.pipe(concat('all.css', {newLine: '\n'}))
-		.pipe(stripCssComments())
-		.pipe(header(head))
-		.pipe(gulp.dest('css'))
-		.pipe(minifyCss())
-		.pipe(header(head))
-		.pipe(rename({suffix: '.min'}))
-		.pipe(gulp.dest('css'));
-});
-
 gulp.task('default', ['fontface']);
