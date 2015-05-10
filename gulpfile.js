@@ -7,6 +7,7 @@ var minifyCss = require('gulp-minify-css');
 var gcallback = require('gulp-callback');
 var header = require('gulp-header');
 var stripCssComments = require('gulp-strip-css-comments');
+var path = require('path');
 
 var head = '/*\n\
  * georgian-webfonts\n\
@@ -18,8 +19,8 @@ var head = '/*\n\
 ';
 
 gulp.task('fontface', function() {
-	return gulp.src('fonts/**/**.{ttf,otf}', {base: '.'})
-		.pipe(fontface(function(data, end) {
+	return gulp.src('fonts/**/**', {base: '.'})
+		.pipe(fontface(function(data, file, end) {
 			gulp
 				.src('template.css')
 				.pipe(consolidate('lodash', data))
@@ -28,6 +29,17 @@ gulp.task('fontface', function() {
 				.pipe(gulp.dest('css'))
 				.pipe(gcallback(end))
 		}))
+});
+
+gulp.task('addFonts', function() {
+	var stream = gulp.src('newfonts/**/**', {base: 'newfonts'});
+	var stream = stream.pipe(fontface(function(data, file, end) {
+		var dir = path.dirname(file.path);
+		var ext = path.extname(file.path).toLowerCase();
+		file.path = dir+'/'+data.fullName+ext;
+		end();
+	}));
+	stream.pipe(gulp.dest('fonts'));
 });
 
 gulp.task('default', ['fontface']);

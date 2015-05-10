@@ -10,7 +10,6 @@ function gulpFontface(callback) {
 	return through.obj(function (file, enc, cb) {
 		if (file.isBuffer()) {
 			var font = opentype.parse(bufferToArrayBuffer(file.contents));
-			console.log(font.tables.name.fontSubfamily);
 			var data = {
 				fullName: font.tables.name.fullName,
 				fontFamily: font.tables.name.fontFamily,
@@ -19,7 +18,7 @@ function gulpFontface(callback) {
 				fontWeight: /bold/i.test(font.tables.name.fontSubfamily) ? "bold" : "normal",
 				path: file.relative.replace(/\\/g, '/'),
 			};
-			callback(data, function() {
+			callback(data, file, function() {
 				cb(null, file);
 			});
 		} else {
