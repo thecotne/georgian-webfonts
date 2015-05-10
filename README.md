@@ -2,7 +2,7 @@ georgian webfonts
 ================
 
 ####install with bower
-`bower install --save thecotne/georgian-webfonts`
+`bower install --save georgian-webfonts`
 
 ####don't want to use bower?
 use [rawgit.com CDN][2] this way you don't need to install anything just replace
