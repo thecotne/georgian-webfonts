@@ -4,6 +4,8 @@ georgian webfonts
 ####install with bower
 `bower install --save georgian-webfonts`
 
+you can use [Preen][4] to include only fonts that you need ([but how?][5])
+
 ####don't want to use bower?
 use [rawgit.com CDN][2] this way you don't need to install anything just replace
 `/bower_components/` with `https://cdn.rawgit.com/thecotne/`
@@ -43,4 +45,5 @@ body {
 [1]: https://github.com/thecotne/georgian-webfonts/issues/new "New Issue · thecotne/square-file-icons"
 [2]: https://rawgit.com/ "rawgit.com CDN"
 [3]: https://rawgit.com/faq#no-uptime-guarantee "no uptime or support guarantees"
-
+[4]: https://github.com/BradDenver/Preen "Preen"
+[5]: https://github.com/thecotne/georgian-webfonts/wiki/How-to-use-Preen "How to use Preen"
