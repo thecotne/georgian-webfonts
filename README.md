@@ -8,13 +8,13 @@ georgian webfonts
 include font you need with link tag
 
 ```html
-<link rel="stylesheet" href="/bower_components/georgian-webfonts/<font full>.css">
+<link rel="stylesheet" href="/bower_components/georgian-webfonts/<font name>.css">
 ```
 
 or css import
 
 ```css
-@import "/bower_components/georgian-webfonts/<font full>.css";
+@import "/bower_components/georgian-webfonts/<font name>.css";
 ```
 
 to use font write some css with selector and `font-family` like this
