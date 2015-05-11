@@ -8,7 +8,7 @@ you can use [Preen][4] to include only fonts that you need ([but how?][5])
 
 ####don't want to use bower?
 use [rawgit.com CDN][2] this way you don't need to install anything just replace
-`/bower_components/` with `https://cdn.rawgit.com/thecotne/`
+`/bower_components/georgian-webfonts/` with `https://rawgit.com/thecotne/georgian-webfonts/master/`
 in following examples
 
 this is a free service, so there are no [uptime or support guarantees.][3]
