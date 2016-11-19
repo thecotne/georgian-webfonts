@@ -17,18 +17,18 @@
   },
   "homepage": "https://github.com/thecotne/georgian-webfonts",
   "devDependencies": {
-    "buffer-to-arraybuffer": "0.0.2",
+    "buffer-to-arraybuffer": "0.0.4",
     "gulp": "^3.8.11",
     "gulp-callback": "0.0.3",
     "gulp-concat": "^2.5.2",
-    "gulp-consolidate": "^0.1.2",
+    "gulp-consolidate": "^0.2.0",
     "gulp-header": "^1.2.2",
     "gulp-minify-css": "^1.1.1",
     "gulp-rename": "^1.2.2",
     "gulp-strip-css-comments": "^1.1.0",
     "gulp-util": "^3.0.4",
-    "lodash": "^3.8.0",
-    "opentype.js": "^0.4.7",
-    "through2": "^0.6.5"
+    "lodash": "^4.17.2",
+    "opentype.js": "^0.6.6",
+    "through2": "^2.0.1"
   }
 }
