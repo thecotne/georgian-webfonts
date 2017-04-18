@@ -1,3 +1,6 @@
+## deprecated in favor of [web-fonts.ge](https://web-fonts.ge/)
+
+
 georgian webfonts
 ================
 
