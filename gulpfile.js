@@ -23,7 +23,12 @@ gulp.task('fontface', function() {
 		.pipe(fontface(function(data, file, end) {
 			gulp
 				.src('template.css')
-				.pipe(consolidate('lodash', data))
+				.pipe(consolidate('lodash', {
+					fontFamily: data.fontFamily.en,
+					path: data.path,
+					fontWeight: data.fontWeight,
+					fontStyle: data.fontStyle
+				}))
 				.pipe(rename({basename: data.fullName.en}))
 				.pipe(header(head))
 				.pipe(gulp.dest('css'))

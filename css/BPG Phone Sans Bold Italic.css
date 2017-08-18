@@ -8,6 +8,6 @@
 @font-face {
 	font-family: "BPG Phone Sans";
 	src: url("../fonts/BPG Phone Sans Bold Italic.ttf");
-	font-weight: bold;
-	font-style: italic;
-}
+	font-weight: normal;
+	font-style: normal;
+}
