@@ -24,7 +24,7 @@ gulp.task('fontface', function() {
 			gulp
 				.src('template.css')
 				.pipe(consolidate('lodash', data))
-				.pipe(rename({basename: data.fullName}))
+				.pipe(rename({basename: data.fullName.en}))
 				.pipe(header(head))
 				.pipe(gulp.dest('css'))
 				.pipe(gcallback(end))
@@ -34,9 +34,10 @@ gulp.task('fontface', function() {
 gulp.task('addFonts', function() {
 	var stream = gulp.src('newfonts/**/**', {base: 'newfonts'});
 	var stream = stream.pipe(fontface(function(data, file, end) {
+
 		var dir = path.dirname(file.path);
 		var ext = path.extname(file.path).toLowerCase();
-		file.path = dir+'/'+data.fullName+ext;
+		file.path = dir+'/'+data.fullName.en+ext;
 		end();
 	}));
 	stream.pipe(gulp.dest('fonts'));
